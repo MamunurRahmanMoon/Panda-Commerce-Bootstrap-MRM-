@@ -25,13 +25,13 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Shoes</a>
+                                <a class="nav-link" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Bagpacks</a>
+                                <a class="nav-link" href="#bags">Bagpacks</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Subscribe</a>
+                                <a class="nav-link" href="#subcribe">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -144,7 +144,7 @@
         </div>
 
         <!-- Shoes Section Start -->
-        <section class="container">
+        <section class="container" id="shoes">
             <div class="container">
                 <h2>Shoes</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -194,7 +194,7 @@
         <!-- Shoes Section End -->
 
         <!-- ******Bag Section Start****** -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="bags">
             <div class="container">
                 <h2>Bags</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -244,16 +244,23 @@
         <!-- Bag Section End -->
 
         <!-- Subcribe Area Start-->
-        <div class="container d-flex align-items-center justify-content-center bg-warning mt-5 rounded">
+        <section style="height: 300px;"
+            class="container d-flex align-items-center justify-content-center bg-warning mt-5 rounded-3 my-5"
+            id="subcribe">
             <div>
                 <h3>LET'S STAY IN TOUCH</h3>
                 <h6>Get updates on sales, specials and more</h6>
-                <input class="form-control" type="text">
-                <button class="btn btn-primary">SUBMIT</button>
+                <form action="">
+                    <input class="form-control" type="text">
+                    <button class="btn btn-primary">SUBMIT</button>
+                </form>
             </div>
-        </div>
+        </section>
         <!-- Subcribe Area End-->
     </main>
+    <footer>
+        <p class="text-center"><small>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
 
 
